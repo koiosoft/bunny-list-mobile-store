@@ -9,9 +9,9 @@
       const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
       // Configura aquí tus enlaces reales
-      const playStoreUrl = "https://play.google.com/store/apps/details?id=TU_PACKAGE_NAME";
-      const appStoreUrl = "https://apps.apple.com/app/idTU_APP_ID";
-      const fallbackUrl = "https://tu-usuario.github.io/tu-app/"; // Pagina general por si abren en PC
+      const playStoreUrl = "https://play.google.com/store/apps/details?id=com.koiosoft.bunnylist";
+      const appStoreUrl = "https://apps.apple.com/app/6807145880";
+      const fallbackUrl = "https://koiosoft.github.io/bunny-list-mobile-store/"; 
 
       if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         window.location.replace(appStoreUrl);
